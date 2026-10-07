@@ -25,7 +25,7 @@ Known from local session history and on-host state:
 - Hermes host: **Ubuntu VM108** at `[HERMES_HOST]`
 - Active Hermes profile: `default`
 - Skill library lives at `~/.hermes/skills/`
-- Plugins currently present include local audit logging; no installed Superpowers plugin directory was present during the 2026-10-07 catalog reconciliation
+- Plugins currently present include only the local audit-logging plugin (`gilfoyle-audit-log`); Superpowers is not installed.
 - OHM standalone skills were manually installed into the local skill library; no OMH plugin path is currently documented as installed
 - `defuddle` CLI is installed separately and the local `defuddle` skill is only the wrapper/invocation guidance
 
