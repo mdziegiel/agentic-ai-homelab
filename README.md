@@ -90,9 +90,9 @@ The numbered docs are not placeholders. They already cover the major items that 
 The skills catalog is a first-class part of this repo, not a hidden appendix.
 
 - Entry point: [docs/skills/README.md](docs/skills/README.md)
-- Current total rows: **485**
+- Current total rows: **484**
 - Rows with session-backed install dates: **263**
-- Rows still carrying any evidence gap: **222**
+- Rows still carrying any evidence gap: **221**
 
 ### Evidence legend
 

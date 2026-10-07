@@ -21,89 +21,45 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 
 ## Coverage summary
 
-- Total rows: **485**
+- Total rows: **484**
 - Rows with session-backed install dates: **263**
-- Rows still carrying any evidence gap: **222**
-- Rows added in this reconciliation: **109**
-- Rows removed because the skill is no longer present on disk or as an installed plugin-provided skill: **50**
+- Rows still carrying any evidence gap: **221**
+- Rows added in this reconciliation: **45**
+- Rows removed because the skill is no longer present on disk or as an installed plugin-provided skill: **46**
 
 ## Rows still carrying gaps
 
-### Source gaps (222)
+### Source gaps (221)
 
-- `.archive/aspnet-core-backend-scaffold-verification`
 - `.archive/audiocraft-audio-generation`
 - `.archive/automation-source-control`
 - `.archive/backup-storage-operations`
-- `.archive/blocked-page-recovery`
-- `.archive/box`
-- `.archive/bulk-repository-reorganization`
-- `.archive/claude-code`
-- `.archive/competitor-news-monitor`
-- `.archive/computer-use`
-- `.archive/credential-rotation-through-remote-secret-storage`
-- `.archive/desktop-agent-remote-backends`
-- `.archive/document-to-action-items`
-- `.archive/docx`
 - `.archive/dogfood`
-- `.archive/email-inbox-triage`
-- `.archive/embedding-runtime-troubleshooting`
 - `.archive/evaluating-llms-harness`
-- `.archive/evidence-first-ui-delivery`
-- `.archive/external-script-curation`
-- `.archive/gbrain-operations`
-- `.archive/github-repo-inventory-and-readme-refresh`
-- `.archive/hermes-runtime-exposure-audits`
 - `.archive/himalaya`
 - `.archive/home-assistant-operations`
-- `.archive/humanizer`
 - `.archive/humanizer-20260923114319`
-- `.archive/inspecting-hermes-desktop-dom`
 - `.archive/jupyter-live-kernel`
-- `.archive/live-ui-verification-workflows`
-- `.archive/meeting-action-items`
-- `.archive/n8n-execution-forensics`
 - `.archive/obsidian`
 - `.archive/openhue`
-- `.archive/pdf`
 - `.archive/portainer-stack-management`
-- `.archive/powershell-script-repo-curation`
-- `.archive/presence-and-identity-ux`
-- `.archive/product-price-monitor`
-- `.archive/public-repo-export-sanitization`
-- `.archive/pwa-installability-workflows`
-- `.archive/repository-script-catalog-maintenance`
-- `.archive/rustdesk-web-client-operations`
-- `.archive/sanitized-public-demo-artifacts`
-- `.archive/script-library-curation`
-- `.archive/sdlc-review`
 - `.archive/segment-anything-model`
 - `.archive/serving-llms-vllm`
-- `.archive/session-output-recovery`
 - `.archive/simplify-code`
-- `.archive/static-site-media-integration`
-- `.archive/static-web-layout-debugging`
-- `.archive/telegram-workflow-routing-forensics`
-- `.archive/urbackup-operations`
-- `.archive/verifying-dotnet-project-scaffolds`
-- `.archive/vue-inline-picker-workflows`
-- `.archive/webhook-execution-retention-forensics`
-- `.archive/weekly-review-planning`
 - `.archive/wikidocs-operations`
-- `.archive/wordpress-docker-content-operations`
-- `.archive/xlsx`
 - `.archive/xurl`
 - `.archive/yaml-configurable-dashboard`
 - `.archive/yuanbao`
 - `api-and-interface-design`
 - `autonomous-ai-agents/ai-coding-agents`
+- `autonomous-ai-agents/claude-code`
+- `autonomous-ai-agents/computer-use`
 - `autonomous-ai-agents/hermes-agent`
 - `autonomous-ai-agents/hermes-runtime-incident-debugging`
 - `autonomous-ai-agents/hermes-skill-preload-operations`
 - `autonomous-ai-agents/manual-skill-import-review`
 - `autonomous-ai-agents/manual-skill-library-intake`
 - `autonomous-ai-agents/merge-reconciler`
-- `autonomous-ai-agents/messaging-output-discipline`
 - `autonomous-ai-agents/messaging-output-hygiene`
 - `autonomous-ai-agents/voice-assistant-routing-audits`
 - `browser-testing-with-devtools`
@@ -124,7 +80,9 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/approval-scope-governance`
 - `devops/backup-and-datastore-integrity-operations`
 - `devops/backup-verification-operations`
+- `devops/bulk-repository-reorganization`
 - `devops/command-approval-policy-engineering`
+- `devops/credential-rotation-through-remote-secret-storage`
 - `devops/crowdsec-acquis-staleness-alerting`
 - `devops/crowdsec-acquisition-operations`
 - `devops/crowdsec-npm-web-ingestion`
@@ -132,11 +90,13 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/daily-briefing-output-standards`
 - `devops/dashboard-data-operations`
 - `devops/dashboard-visual-verification`
+- `devops/desktop-agent-remote-backends`
 - `devops/docker-image-extraction`
 - `devops/docker-management`
 - `devops/docker-portainer-stack-operations`
 - `devops/external-verification-operations`
 - `devops/hermes-kanban-operations`
+- `devops/hermes-runtime-exposure-audits`
 - `devops/home-assistant-configuration-operations`
 - `devops/home-assistant-websocket-triage`
 - `devops/incident-root-cause-analysis`
@@ -158,34 +118,48 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `devops/remote-command-wrapper-hygiene`
 - `devops/remote-stack-deployment-from-gateway-sessions`
 - `devops/reverse-proxy-host-operations`
+- `devops/rustdesk-web-client-operations`
 - `devops/safe-commit-in-live-compose-repos`
 - `devops/scheduled-automation-migrations`
+- `devops/script-library-curation`
+- `devops/sdlc-review`
 - `devops/self-hosted-app-runtime-verification`
 - `devops/ssh-key-bootstrap-and-rotate`
+- `devops/telegram-workflow-routing-forensics`
+- `devops/urbackup-operations`
 - `devops/verification-scope-isolation`
 - `devops/verified-data-cleanup-operations`
 - `devops/voice-assistant-market-quotes`
 - `devops/voice-assistant-sports-scores`
 - `devops/windows-jea-winrm-operations`
+- `devops/wordpress-docker-content-operations`
 - `diagnosing-bugs`
 - `dns-sinkhole-diagnosis`
 - `docker-compose-patterns`
 - `docker-destructive-guardrails`
 - `docker-override-config-patterns`
 - `documentation-and-adrs`
+- `documentation-and-adrs/github-repo-inventory-and-readme-refresh`
 - `doubt-driven-development`
+- `email/email-inbox-triage`
 - `entra-conditional-access`
 - `frontend-ui-engineering`
+- `frontend/presence-and-identity-ux`
 - `gaming/gaming-automation-and-servers`
 - `git-workflow-and-versioning`
+- `github/external-script-curation`
 - `github/github-issue-to-pr`
 - `github/github-live-publish-verification`
 - `github/github-profile-readme-operations`
 - `github/github-readme-render-verification`
 - `github/github-workflows`
+- `github/powershell-script-repo-curation`
+- `github/public-repo-export-sanitization`
+- `github/repository-script-catalog-maintenance`
 - `github/single-repo-operations`
 - `hermes-desktop-plugins`
 - `home-assistant-best-practices`
+- `humanizer`
 - `idea-refine`
 - `incremental-implementation`
 - `interview-me`
@@ -201,22 +175,36 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `powershell-expert`
 - `powershell-m365`
 - `productivity/apple-ecosystem-automation`
+- `productivity/box`
+- `productivity/document-to-action-items`
+- `productivity/docx`
+- `productivity/embedding-runtime-troubleshooting`
 - `productivity/external-app-operations`
 - `productivity/flight-hotel-search`
+- `productivity/gbrain-operations`
 - `productivity/github-pages-blog-operations`
 - `productivity/knowledge-base-curation-workflows`
 - `productivity/markdown-knowledge-base-maintenance`
+- `productivity/meeting-action-items`
+- `productivity/n8n-execution-forensics`
 - `productivity/n8n-workflow-operations`
 - `productivity/news-headlines-summary`
 - `productivity/obsidian-session-note-capture`
+- `productivity/pdf`
 - `productivity/petdex`
+- `productivity/product-price-monitor`
 - `productivity/productivity-api-automation`
 - `productivity/session-librarian`
 - `productivity/session-output-forensics`
+- `productivity/session-output-recovery`
 - `productivity/session-tracing-and-output-forensics`
 - `productivity/sports-scores-lookup`
 - `productivity/stepwise-verification-audits`
+- `productivity/webhook-execution-retention-forensics`
+- `productivity/weekly-review-planning`
+- `productivity/xlsx`
 - `read-only-infrastructure-audits`
+- `research/competitor-news-monitor`
 - `research/grounded-citations`
 - `research/research-discovery-and-writing`
 - `research/web-data-extraction-on-hermes`
@@ -224,326 +212,67 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 - `security-and-hardening`
 - `security/oss-forensics`
 - `shipping-and-launch`
+- `software-development/aspnet-core-backend-scaffold-verification`
 - `software-development/browser-automation-setup-and-triage`
 - `software-development/browser-automation-troubleshooting`
 - `software-development/browser-proofed-ui-verification`
 - `software-development/browser-state-verification`
 - `software-development/code-wiki`
+- `software-development/evidence-first-ui-delivery`
 - `software-development/frontend-live-ui-verification`
 - `software-development/github`
 - `software-development/github-repository-cleanup`
 - `software-development/grill-me`
+- `software-development/inspecting-hermes-desktop-dom`
 - `software-development/iris-voice-operations`
 - `software-development/lightweight-local-agent-sidecars`
+- `software-development/live-ui-verification-workflows`
 - `software-development/powershell-script-curation`
+- `software-development/pwa-installability-workflows`
 - `software-development/quality-review-workflows`
 - `software-development/review-gated-git-delivery`
+- `software-development/sanitized-public-demo-artifacts`
 - `software-development/software-delivery-workflows`
 - `software-development/static-site-github-pages-delivery`
 - `software-development/static-site-hero-media-updates`
+- `software-development/static-site-media-integration`
 - `software-development/static-site-release-verification`
+- `software-development/static-web-layout-debugging`
 - `software-development/systematic-debugging`
 - `software-development/test-driven-development`
 - `software-development/ui-evidence-delivery`
+- `software-development/verifying-dotnet-project-scaffolds`
 - `software-development/voice-endpoint-compound-handling`
 - `software-development/voice-endpoint-hardening`
 - `software-development/voice-endpoint-service-and-delegation`
+- `software-development/vue-inline-picker-workflows`
 - `software-development/web-extraction-with-agent-browser`
 - `source-driven-development`
 - `spec-driven-development`
 - `using-agent-skills`
 - `verification-before-completion`
-
-### Install-date gaps (222)
-
-- `.archive/aspnet-core-backend-scaffold-verification`
-- `.archive/audiocraft-audio-generation`
-- `.archive/automation-source-control`
-- `.archive/backup-storage-operations`
-- `.archive/blocked-page-recovery`
-- `.archive/box`
-- `.archive/bulk-repository-reorganization`
-- `.archive/claude-code`
-- `.archive/competitor-news-monitor`
-- `.archive/computer-use`
-- `.archive/credential-rotation-through-remote-secret-storage`
-- `.archive/desktop-agent-remote-backends`
-- `.archive/document-to-action-items`
-- `.archive/docx`
-- `.archive/dogfood`
-- `.archive/email-inbox-triage`
-- `.archive/embedding-runtime-troubleshooting`
-- `.archive/evaluating-llms-harness`
-- `.archive/evidence-first-ui-delivery`
-- `.archive/external-script-curation`
-- `.archive/gbrain-operations`
-- `.archive/github-repo-inventory-and-readme-refresh`
-- `.archive/hermes-runtime-exposure-audits`
-- `.archive/himalaya`
-- `.archive/home-assistant-operations`
-- `.archive/humanizer`
-- `.archive/humanizer-20260923114319`
-- `.archive/inspecting-hermes-desktop-dom`
-- `.archive/jupyter-live-kernel`
-- `.archive/live-ui-verification-workflows`
-- `.archive/meeting-action-items`
-- `.archive/n8n-execution-forensics`
-- `.archive/obsidian`
-- `.archive/openhue`
-- `.archive/pdf`
-- `.archive/portainer-stack-management`
-- `.archive/powershell-script-repo-curation`
-- `.archive/presence-and-identity-ux`
-- `.archive/product-price-monitor`
-- `.archive/public-repo-export-sanitization`
-- `.archive/pwa-installability-workflows`
-- `.archive/repository-script-catalog-maintenance`
-- `.archive/rustdesk-web-client-operations`
-- `.archive/sanitized-public-demo-artifacts`
-- `.archive/script-library-curation`
-- `.archive/sdlc-review`
-- `.archive/segment-anything-model`
-- `.archive/serving-llms-vllm`
-- `.archive/session-output-recovery`
-- `.archive/simplify-code`
-- `.archive/static-site-media-integration`
-- `.archive/static-web-layout-debugging`
-- `.archive/telegram-workflow-routing-forensics`
-- `.archive/urbackup-operations`
-- `.archive/verifying-dotnet-project-scaffolds`
-- `.archive/vue-inline-picker-workflows`
-- `.archive/webhook-execution-retention-forensics`
-- `.archive/weekly-review-planning`
-- `.archive/wikidocs-operations`
-- `.archive/wordpress-docker-content-operations`
-- `.archive/xlsx`
-- `.archive/xurl`
-- `.archive/yaml-configurable-dashboard`
-- `.archive/yuanbao`
-- `api-and-interface-design`
-- `autonomous-ai-agents/ai-coding-agents`
-- `autonomous-ai-agents/hermes-agent`
-- `autonomous-ai-agents/hermes-runtime-incident-debugging`
-- `autonomous-ai-agents/hermes-skill-preload-operations`
-- `autonomous-ai-agents/manual-skill-import-review`
-- `autonomous-ai-agents/manual-skill-library-intake`
-- `autonomous-ai-agents/merge-reconciler`
-- `autonomous-ai-agents/messaging-output-discipline`
-- `autonomous-ai-agents/messaging-output-hygiene`
-- `autonomous-ai-agents/voice-assistant-routing-audits`
-- `browser-testing-with-devtools`
-- `ci-cd-and-automation`
-- `code-review-and-quality`
-- `code-simplification`
-- `composio`
-- `context-engineering`
-- `creative/ascii-media`
-- `creative/baoyu-visual-content`
-- `creative/creative-ideation`
-- `creative/creative-media-generation`
-- `creative/creative-web-visual-design`
-- `debugging-and-error-recovery`
-- `deprecation-and-migration`
-- `detect-skill`
-- `devops/app-build-standards`
-- `devops/approval-scope-governance`
-- `devops/backup-and-datastore-integrity-operations`
-- `devops/backup-verification-operations`
-- `devops/command-approval-policy-engineering`
-- `devops/crowdsec-acquis-staleness-alerting`
-- `devops/crowdsec-acquisition-operations`
-- `devops/crowdsec-npm-web-ingestion`
-- `devops/crowdsec-remediation-operations`
-- `devops/daily-briefing-output-standards`
-- `devops/dashboard-data-operations`
-- `devops/dashboard-visual-verification`
-- `devops/docker-image-extraction`
-- `devops/docker-management`
-- `devops/docker-portainer-stack-operations`
-- `devops/external-verification-operations`
-- `devops/hermes-kanban-operations`
-- `devops/home-assistant-configuration-operations`
-- `devops/home-assistant-websocket-triage`
-- `devops/incident-root-cause-analysis`
-- `devops/infrastructure-change-documentation`
-- `devops/infrastructure-documentation-deployment-hygiene`
-- `devops/live-endpoint-verification`
-- `devops/mcp-gateway-readonly-operations`
-- `devops/mrdtech-infra-monitoring`
-- `devops/noc-dashboard-operations`
-- `devops/pbs-datastore-integrity-operations`
-- `devops/portainer-api-proxy-and-agent-triage`
-- `devops/portainer-stack-delivery`
-- `devops/proxmox-api-collector-patterns`
-- `devops/proxmox-guest-maintenance`
-- `devops/proxmox-maintenance-operations`
-- `devops/public-api-lookup-operations`
-- `devops/public-release-verification`
-- `devops/public-safe-infrastructure-documentation`
-- `devops/remote-command-wrapper-hygiene`
-- `devops/remote-stack-deployment-from-gateway-sessions`
-- `devops/reverse-proxy-host-operations`
-- `devops/safe-commit-in-live-compose-repos`
-- `devops/scheduled-automation-migrations`
-- `devops/self-hosted-app-runtime-verification`
-- `devops/ssh-key-bootstrap-and-rotate`
-- `devops/verification-scope-isolation`
-- `devops/verified-data-cleanup-operations`
-- `devops/voice-assistant-market-quotes`
-- `devops/voice-assistant-sports-scores`
-- `devops/windows-jea-winrm-operations`
-- `diagnosing-bugs`
-- `dns-sinkhole-diagnosis`
-- `docker-compose-patterns`
-- `docker-destructive-guardrails`
-- `docker-override-config-patterns`
-- `documentation-and-adrs`
-- `doubt-driven-development`
-- `entra-conditional-access`
-- `frontend-ui-engineering`
-- `gaming/gaming-automation-and-servers`
-- `git-workflow-and-versioning`
-- `github/github-issue-to-pr`
-- `github/github-live-publish-verification`
-- `github/github-profile-readme-operations`
-- `github/github-readme-render-verification`
-- `github/github-workflows`
-- `github/single-repo-operations`
-- `hermes-desktop-plugins`
-- `home-assistant-best-practices`
-- `idea-refine`
-- `incremental-implementation`
-- `interview-me`
-- `mcp/mcporter`
-- `mcp/native-mcp`
-- `media/media-content-workflows`
-- `mlops/local-llm-operations`
-- `mlops/ml-evaluation-and-experiment-tracking`
-- `mlops/ml-model-and-research-tools`
-- `observability-and-instrumentation`
-- `performance-optimization`
-- `planning-and-task-breakdown`
-- `powershell-expert`
-- `powershell-m365`
-- `productivity/apple-ecosystem-automation`
-- `productivity/external-app-operations`
-- `productivity/flight-hotel-search`
-- `productivity/github-pages-blog-operations`
-- `productivity/knowledge-base-curation-workflows`
-- `productivity/markdown-knowledge-base-maintenance`
-- `productivity/n8n-workflow-operations`
-- `productivity/news-headlines-summary`
-- `productivity/obsidian-session-note-capture`
-- `productivity/petdex`
-- `productivity/productivity-api-automation`
-- `productivity/session-librarian`
-- `productivity/session-output-forensics`
-- `productivity/session-tracing-and-output-forensics`
-- `productivity/sports-scores-lookup`
-- `productivity/stepwise-verification-audits`
-- `read-only-infrastructure-audits`
-- `research/grounded-citations`
-- `research/research-discovery-and-writing`
-- `research/web-data-extraction-on-hermes`
-- `router-e2e-auditing`
-- `security-and-hardening`
-- `security/oss-forensics`
-- `shipping-and-launch`
-- `software-development/browser-automation-setup-and-triage`
-- `software-development/browser-automation-troubleshooting`
-- `software-development/browser-proofed-ui-verification`
-- `software-development/browser-state-verification`
-- `software-development/code-wiki`
-- `software-development/frontend-live-ui-verification`
-- `software-development/github`
-- `software-development/github-repository-cleanup`
-- `software-development/grill-me`
-- `software-development/iris-voice-operations`
-- `software-development/lightweight-local-agent-sidecars`
-- `software-development/powershell-script-curation`
-- `software-development/quality-review-workflows`
-- `software-development/review-gated-git-delivery`
-- `software-development/software-delivery-workflows`
-- `software-development/static-site-github-pages-delivery`
-- `software-development/static-site-hero-media-updates`
-- `software-development/static-site-release-verification`
-- `software-development/systematic-debugging`
-- `software-development/test-driven-development`
-- `software-development/ui-evidence-delivery`
-- `software-development/voice-endpoint-compound-handling`
-- `software-development/voice-endpoint-hardening`
-- `software-development/voice-endpoint-service-and-delegation`
-- `software-development/web-extraction-with-agent-browser`
-- `source-driven-development`
-- `spec-driven-development`
-- `using-agent-skills`
-- `verification-before-completion`
+- `web/blocked-page-recovery`
 
 ## Inventory
 
 | Name | Path kind | Source link | Source evidence | What it does | Install date | Install-date evidence | Notes |
 |---|---|---|---|---|---|---|---|
-| `.archive/aspnet-core-backend-scaffold-verification` | nested | local skill library path only | path-only | Use when fresh ASP.NET Core backends must compile cleanly. | 2026-08-14 | filesystem-derived | Present as skill `.archive/aspnet-core-backend-scaffold-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/audiocraft-audio-generation` | nested | local skill library path only | path-only | AudioCraft: MusicGen text-to-music, AudioGen text-to-sound. | 2026-06-02 | filesystem-derived | Present as skill `.archive/audiocraft-audio-generation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/automation-source-control` | nested | local skill library path only | path-only | Build source-controlled repositories for operational automation: cron/scheduler scripts, n8n workflows, env templates, README runbooks, and verification. | 2026-06-17 | filesystem-derived | Present as skill `.archive/automation-source-control`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/backup-storage-operations` | nested | local skill library path only | path-only | Troubleshoot and operate backup storage paths for PBS/Proxmox/QNAP: NFS/iSCSI mounts, restore throughput, datastore cleanup, and storage mapping. | 2026-06-17 | filesystem-derived | Present as skill `.archive/backup-storage-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/blocked-page-recovery` | nested | local skill library path only | path-only | Use when a fetch fails: 403/429, paywall, WAF, bot wall. | 2026-09-03 | filesystem-derived | Present as skill `.archive/blocked-page-recovery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/box` | nested | local skill library path only | path-only | Box manages cloud files, sharing, search, and metadata. | 2026-08-15 | filesystem-derived | Present as skill `.archive/box`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/bulk-repository-reorganization` | nested | local skill library path only | path-only | Use when reorganizing many files in a repo. Verify. | 2026-08-20 | filesystem-derived | Present as skill `.archive/bulk-repository-reorganization`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/claude-code` | nested | local skill library path only | path-only | Delegate coding to Claude Code CLI (features, PRs). | 2026-08-10 | filesystem-derived | Present as skill `.archive/claude-code`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/competitor-news-monitor` | nested | local skill library path only | path-only | Watch named companies for material news; cited digests. | 2026-09-13 | filesystem-derived | Present as skill `.archive/competitor-news-monitor`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/computer-use` | nested | local skill library path only | path-only | Drive the desktop background-first; escalate on signal. | 2026-09-03 | filesystem-derived | Present as skill `.archive/computer-use`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/credential-rotation-through-remote-secret-storage` | nested | local skill library path only | path-only | Use when rotating a remote-host service credential safely. | 2026-08-08 | filesystem-derived | Present as skill `.archive/credential-rotation-through-remote-secret-storage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/desktop-agent-remote-backends` | nested | local skill library path only | path-only | Connect desktop/GUI agent clients to existing remote agent backends instead of accidentally using a fresh local profile. Use for Hermes Desktop remote backend setup, dashboard/API/WebSocket exposure, authentication, and verification. | 2026-06-20 | filesystem-derived | Present as skill `.archive/desktop-agent-remote-backends`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/document-to-action-items` | nested | local skill library path only | path-only | Extract cited obligations, deadlines, tasks from documents. | 2026-09-03 | filesystem-derived | Present as skill `.archive/document-to-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/docx` | nested | local skill library path only | path-only | Create, read, edit, template, and review Word .docx files. | 2026-08-10 | filesystem-derived | Present as skill `.archive/docx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/dogfood` | nested | local skill library path only | path-only | Exploratory QA of web apps: find bugs, evidence, reports. | 2026-06-02 | filesystem-derived | Present as skill `.archive/dogfood`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/email-inbox-triage` | nested | local skill library path only | path-only | Triage an inbox: prioritize threads, draft replies safely. | 2026-08-10 | filesystem-derived | Present as skill `.archive/email-inbox-triage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/embedding-runtime-troubleshooting` | nested | local skill library path only | path-only | Use when embedding imports fail from runtime/timeout issues. | 2026-08-14 | filesystem-derived | Present as skill `.archive/embedding-runtime-troubleshooting`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/evaluating-llms-harness` | nested | local skill library path only | path-only | lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.). | 2026-06-02 | filesystem-derived | Present as skill `.archive/evaluating-llms-harness`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/evidence-first-ui-delivery` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `.archive/evidence-first-ui-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/external-script-curation` | nested | local skill library path only | path-only | Use when sourcing external scripts for reviewable staging. | 2026-08-20 | filesystem-derived | Present as skill `.archive/external-script-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/gbrain-operations` | nested | local skill library path only | path-only | Use when operating GBrain. Setup, import, retry, verify. | 2026-08-14 | filesystem-derived | Present as skill `.archive/gbrain-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/github-repo-inventory-and-readme-refresh` | nested | local skill library path only | path-only | Use when live GitHub repo trees need verified pulls. | 2026-08-20 | filesystem-derived | Present as skill `.archive/github-repo-inventory-and-readme-refresh`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/hermes-runtime-exposure-audits` | nested | local skill library path only | path-only | Audit Hermes dashboard/gateway exposure read-only. | 2026-08-30 | filesystem-derived | Present as skill `.archive/hermes-runtime-exposure-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/himalaya` | nested | local skill library path only | path-only | Himalaya CLI: IMAP/SMTP email from terminal. | 2026-06-02 | filesystem-derived | Present as skill `.archive/himalaya`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/home-assistant-operations` | nested | local skill library path only | path-only | Operate Home Assistant via REST/websocket APIs: Assist/Jarvis pipelines, conversation agents, config entries/subentries, integration options, and verification prompts. | 2026-06-17 | filesystem-derived | Present as skill `.archive/home-assistant-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/humanizer` | nested | local skill library path only | path-only | Humanize text: strip AI-isms and add real voice. | 2026-06-02 | filesystem-derived | Present as skill `.archive/humanizer`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/humanizer-20260923114319` | nested | local skill library path only | path-only | \| | 2026-08-13 | filesystem-derived | Present as skill `.archive/humanizer-20260923114319`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/inspecting-hermes-desktop-dom` | nested | local skill library path only | path-only | Read the live Hermes desktop DOM/CSS over CDP. | 2026-08-08 | filesystem-derived | Present as skill `.archive/inspecting-hermes-desktop-dom`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `.archive/humanizer-20260923114319` | nested | local skill library path only | path-only | \\| | 2026-08-13 | filesystem-derived | Present as skill `.archive/humanizer-20260923114319`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/jupyter-live-kernel` | nested | local skill library path only | path-only | Iterative Python via live Jupyter kernel (hamelnb). | 2026-06-02 | filesystem-derived | Present as skill `.archive/jupyter-live-kernel`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/live-ui-verification-workflows` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `.archive/live-ui-verification-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/meeting-action-items` | nested | local skill library path only | path-only | Turn meeting notes into cited decisions, owners, tickets. | 2026-08-10 | filesystem-derived | Present as skill `.archive/meeting-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/n8n-execution-forensics` | nested | local skill library path only | path-only | Use when n8n webhooks stall. Inspect executions first. | 2026-08-17 | filesystem-derived | Present as skill `.archive/n8n-execution-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/obsidian` | nested | local skill library path only | path-only | Read, search, create, and edit notes in the Obsidian vault. | 2026-06-12 | filesystem-derived | Present as skill `.archive/obsidian`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/openhue` | nested | local skill library path only | path-only | Control Philips Hue lights, scenes, rooms via OpenHue CLI. | 2026-06-02 | filesystem-derived | Present as skill `.archive/openhue`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/pdf` | nested | local skill library path only | path-only | PDF files: create, read, merge, fill, OCR, edit text. | 2026-09-03 | filesystem-derived | Present as skill `.archive/pdf`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/portainer-stack-management` | nested | local skill library path only | path-only | Manage Docker Compose stacks through the Portainer API, especially persistent environment-variable updates and redeploy verification. | 2026-06-17 | filesystem-derived | Present as skill `.archive/portainer-stack-management`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/powershell-script-repo-curation` | nested | local skill library path only | path-only | Use when curating PowerShell scripts. Verify and publish. | 2026-08-20 | filesystem-derived | Present as skill `.archive/powershell-script-repo-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/presence-and-identity-ux` | nested | local skill library path only | path-only | Use when presence panels or identity colors scale. | 2026-08-15 | filesystem-derived | Present as skill `.archive/presence-and-identity-ux`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/product-price-monitor` | nested | local skill library path only | path-only | Watch product, flight, or listing prices; alert on target. | 2026-08-10 | filesystem-derived | Present as skill `.archive/product-price-monitor`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/public-repo-export-sanitization` | nested | local skill library path only | path-only | Use when exporting production-derived or private infrastructure/application trees into a public GitHub repository with sanitization, leak scanning, staged diff review, and confirmation-gated push. | 2026-08-14 | filesystem-derived | Present as skill `.archive/public-repo-export-sanitization`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/pwa-installability-workflows` | nested | local skill library path only | path-only | Fix and verify installability for PWA/static web apps, especially Vite or Dockerized self-hosted frontends. | 2026-07-21 | filesystem-derived | Present as skill `.archive/pwa-installability-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/repository-script-catalog-maintenance` | nested | local skill library path only | path-only | Use when curating script repos. Verify, tag, and publish. | 2026-08-20 | filesystem-derived | Present as skill `.archive/repository-script-catalog-maintenance`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/rustdesk-web-client-operations` | nested | local skill library path only | path-only | Use when deploying or debugging RustDesk web clients. | 2026-08-17 | filesystem-derived | Present as skill `.archive/rustdesk-web-client-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/sanitized-public-demo-artifacts` | nested | local skill library path only | path-only | Use when public docs need sanitized demo artifacts. | 2026-08-25 | filesystem-derived | Present as skill `.archive/sanitized-public-demo-artifacts`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/script-library-curation` | nested | local skill library path only | path-only | Use when curating script libraries. | 2026-08-20 | filesystem-derived | Present as skill `.archive/script-library-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/sdlc-review` | nested | local skill library path only | path-only | Review Kanban handoffs and route verified outcomes. | 2026-08-11 | filesystem-derived | Present as skill `.archive/sdlc-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/segment-anything-model` | nested | local skill library path only | path-only | SAM: zero-shot image segmentation via points, boxes, masks. | 2026-06-02 | filesystem-derived | Present as skill `.archive/segment-anything-model`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/serving-llms-vllm` | nested | local skill library path only | path-only | vLLM: high-throughput LLM serving, OpenAI API, quantization. | 2026-06-02 | filesystem-derived | Present as skill `.archive/serving-llms-vllm`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/session-output-recovery` | nested | local skill library path only | path-only | Use when recovering raw output from past sessions. | 2026-08-19 | filesystem-derived | Present as skill `.archive/session-output-recovery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/simplify-code` | nested | local skill library path only | path-only | Parallel 3-agent cleanup of recent code changes. | 2026-06-12 | filesystem-derived | Present as skill `.archive/simplify-code`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/static-site-media-integration` | nested | local skill library path only | path-only | Use when adding images to static sites. Optimize and verify. | 2026-08-07 | filesystem-derived | Present as skill `.archive/static-site-media-integration`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/static-web-layout-debugging` | nested | local skill library path only | path-only | Use when static HTML/CSS spacing drifts. | 2026-08-10 | filesystem-derived | Present as skill `.archive/static-web-layout-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/telegram-workflow-routing-forensics` | nested | local skill library path only | path-only | Use when Telegram routing in n8n is wrong. Prove mapping. | 2026-08-17 | filesystem-derived | Present as skill `.archive/telegram-workflow-routing-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/urbackup-operations` | nested | local skill library path only | path-only | Use when UrBackup logs/diagnostics are needed via database. | 2026-08-14 | filesystem-derived | Present as skill `.archive/urbackup-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/verifying-dotnet-project-scaffolds` | nested | local skill library path only | path-only | Use when fresh .NET/ASP.NET scaffolds must actually compile. | 2026-08-14 | filesystem-derived | Present as skill `.archive/verifying-dotnet-project-scaffolds`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/vue-inline-picker-workflows` | nested | local skill library path only | path-only | Use when adding inline pickers to Vue composer forms. | 2026-08-16 | filesystem-derived | Present as skill `.archive/vue-inline-picker-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/webhook-execution-retention-forensics` | nested | local skill library path only | path-only | Use when webhook alert payloads vanish from history. | 2026-08-31 | filesystem-derived | Present as skill `.archive/webhook-execution-retention-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/weekly-review-planning` | nested | local skill library path only | path-only | Weekly reset: commitments, stalled work, next-week plan. | 2026-08-10 | filesystem-derived | Present as skill `.archive/weekly-review-planning`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/wikidocs-operations` | nested | local skill library path only | path-only | Operate MRDTech WikiDocs flat-file pages, including direct container writes, cache resets, page verification, and live Docker inventory/port-map updates. | 2026-06-17 | filesystem-derived | Present as skill `.archive/wikidocs-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/wordpress-docker-content-operations` | nested | local skill library path only | path-only | Use when editing live WordPress text in Docker. | 2026-08-02 | filesystem-derived | Present as skill `.archive/wordpress-docker-content-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `.archive/xlsx` | nested | local skill library path only | path-only | Create, read, edit Excel .xlsx workbooks and CSVs. | 2026-08-10 | filesystem-derived | Present as skill `.archive/xlsx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/xurl` | nested | local skill library path only | path-only | X/Twitter via xurl CLI: post, search, DM, media, v2 API. | 2026-06-12 | filesystem-derived | Present as skill `.archive/xurl`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/yaml-configurable-dashboard` | nested | local skill library path only | path-only | Build YAML-configurable, themeable, Docker-ready NOC/monitoring dashboards. | 2026-06-17 | filesystem-derived | Present as skill `.archive/yaml-configurable-dashboard`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `.archive/yuanbao` | nested | local skill library path only | path-only | Yuanbao (元宝) groups: @mention users, query info/members. | 2026-06-02 | filesystem-derived | Present as skill `.archive/yuanbao`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -594,13 +323,14 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `auditing-tls-certificate-transparency-logs` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Monitors Certificate Transparency (CT) logs to detect unauthorized certificate | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `automating-ioc-enrichment` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Automates the enrichment of raw indicators of compromise with multi-source | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `autonomous-ai-agents/ai-coding-agents` | nested | local skill library path only | path-only | Use when delegating coding work to external AI coding agents such as Claude Code, Codex, OpenCode, or a Kanban-isolated implementation lane. | 2026-08-10 | filesystem-derived | Present as skill `autonomous-ai-agents/ai-coding-agents`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `autonomous-ai-agents/claude-code` | nested | local skill library path only | path-only | Delegate coding to Claude Code CLI (features, PRs). | 2026-08-10 | filesystem-derived | Present as skill `autonomous-ai-agents/claude-code`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `autonomous-ai-agents/computer-use` | nested | local skill library path only | path-only | Drive the desktop background-first; escalate on signal. | 2026-09-03 | filesystem-derived | Present as skill `autonomous-ai-agents/computer-use`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/hermes-agent` | nested | local skill library path only | path-only | Configure, extend, or contribute to Hermes Agent. | 2026-06-10 | filesystem-derived | Present as skill `autonomous-ai-agents/hermes-agent`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/hermes-runtime-incident-debugging` | nested | local skill library path only | path-only | Use when Hermes runtime errors need source-backed RCA first. | 2026-08-02 | filesystem-derived | Present as skill `autonomous-ai-agents/hermes-runtime-incident-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/hermes-skill-preload-operations` | nested | local skill library path only | path-only | Use when forcing Hermes skills to preload for a task. | 2026-09-24 | filesystem-derived | Present as skill `autonomous-ai-agents/hermes-skill-preload-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/manual-skill-import-review` | nested | local skill library path only | path-only | Use when importing skills manually. | 2026-08-13 | filesystem-derived | Present as skill `autonomous-ai-agents/manual-skill-import-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/manual-skill-library-intake` | nested | local skill library path only | path-only | Use when manually importing Hermes skills. Review first. | 2026-08-13 | filesystem-derived | Present as skill `autonomous-ai-agents/manual-skill-library-intake`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/merge-reconciler` | nested | local skill library path only | path-only | Neutral third-party resolution of agent merge conflicts. | 2026-08-11 | filesystem-derived | Present as skill `autonomous-ai-agents/merge-reconciler`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
-| `autonomous-ai-agents/messaging-output-discipline` | nested | local skill library path only | path-only | Use when output mode is wrong. Prove and control delivery. | 2026-08-12 | filesystem-derived | Present as skill `autonomous-ai-agents/messaging-output-discipline`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/messaging-output-hygiene` | nested | local skill library path only | path-only | Use when chat replies must stay text-only and secret-safe. | 2026-08-12 | filesystem-derived | Present as skill `autonomous-ai-agents/messaging-output-hygiene`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `autonomous-ai-agents/voice-assistant-routing-audits` | nested | local skill library path only | path-only | Audit voice fast-paths and HA control safely with evidence. | 2026-09-25 | filesystem-derived | Present as skill `autonomous-ai-agents/voice-assistant-routing-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `browser-testing-with-devtools` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
@@ -678,7 +408,9 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `devops/approval-scope-governance` | nested | local skill library path only | path-only | Use when scope must not be self-declared. Anchor trust. | 2026-09-25 | filesystem-derived | Present as skill `devops/approval-scope-governance`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/backup-and-datastore-integrity-operations` | nested | local skill library path only | path-only | Use when backup/PBS integrity issues need verified fixes. | 2026-08-10 | filesystem-derived | Present as skill `devops/backup-and-datastore-integrity-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/backup-verification-operations` | nested | local skill library path only | path-only | Use when verifying mounted backup repos. Prove live data. | 2026-09-21 | filesystem-derived | Present as skill `devops/backup-verification-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/bulk-repository-reorganization` | nested | local skill library path only | path-only | Use when reorganizing many files in a repo. Verify. | 2026-08-20 | filesystem-derived | Present as skill `devops/bulk-repository-reorganization`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/command-approval-policy-engineering` | nested | local skill library path only | path-only | Use when changing approval rules. Verify verdicts. | 2026-10-03 | filesystem-derived | Present as skill `devops/command-approval-policy-engineering`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/credential-rotation-through-remote-secret-storage` | nested | local skill library path only | path-only | Use when rotating a remote-host service credential safely. | 2026-08-08 | filesystem-derived | Present as skill `devops/credential-rotation-through-remote-secret-storage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/crowdsec-acquis-staleness-alerting` | nested | local skill library path only | path-only | Alert CrowdSec acquis flatlines via Uptime Kuma Push. | 2026-09-25 | filesystem-derived | Present as skill `devops/crowdsec-acquis-staleness-alerting`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/crowdsec-acquisition-operations` | nested | local skill library path only | path-only | Wire and verify CrowdSec acquisition; diagnose RCA causes. | 2026-09-25 | filesystem-derived | Present as skill `devops/crowdsec-acquisition-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/crowdsec-npm-web-ingestion` | nested | local skill library path only | path-only | Point a containerized CrowdSec engine at Nginx Proxy Manager (or any reverse-proxy) web-access logs so it actually ingests web-attack traffic, plus restore real client IPs behind Cloudflare. Use when a CrowdSec engine shows "no alerts / no activity" but the host fronts web services — it's almost always reading only system logs (syslog/auth.log), not the proxy access logs where the attacks are. | 2026-06-30 | filesystem-derived | Present as skill `devops/crowdsec-npm-web-ingestion`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -686,11 +418,13 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `devops/daily-briefing-output-standards` | nested | local skill library path only | path-only | Use when building or fixing daily briefing outputs. | 2026-09-28 | filesystem-derived | Present as skill `devops/daily-briefing-output-standards`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/dashboard-data-operations` | nested | local skill library path only | path-only | Operate internal infrastructure dashboards through their data/API layer: discover schemas, add/update rows, avoid code edits, and verify rendered UI. | 2026-07-16 | filesystem-derived | Present as skill `devops/dashboard-data-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/dashboard-visual-verification` | nested | local skill library path only | path-only | Use when dashboards need live screenshot proof. | 2026-08-15 | filesystem-derived | Present as skill `devops/dashboard-visual-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/desktop-agent-remote-backends` | nested | local skill library path only | path-only | Connect desktop/GUI agent clients to existing remote agent backends instead of accidentally using a fresh local profile. Use for Hermes Desktop remote backend setup, dashboard/API/WebSocket exposure, authentication, and verification. | 2026-06-20 | filesystem-derived | Present as skill `devops/desktop-agent-remote-backends`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/docker-image-extraction` | nested | local skill library path only | path-only | Use when extracting files from Docker images. | 2026-09-14 | filesystem-derived | Present as skill `devops/docker-image-extraction`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/docker-management` | nested | local skill library path only | path-only | Manage Docker containers, images, volumes, and Compose. | 2026-08-30 | filesystem-derived | Present as skill `devops/docker-management`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/docker-portainer-stack-operations` | nested | local skill library path only | path-only | Operate Docker Compose and Portainer-managed stacks safely on MRDTech hosts: locate live compose files, preserve project names, fix volume references, validate/recreate stacks, and verify mounts without data loss. | 2026-08-10 | filesystem-derived | Present as skill `devops/docker-portainer-stack-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/external-verification-operations` | nested | local skill library path only | path-only | Use when verifying infra claims with external logs. | 2026-09-12 | filesystem-derived | Present as skill `devops/external-verification-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/hermes-kanban-operations` | nested | local skill library path only | path-only | Use when operating Hermes Kanban boards, orchestrator profiles, worker profiles, task lifecycle, and event-driven webhook-triggered agent runs. | 2026-06-10 | filesystem-derived | Present as skill `devops/hermes-kanban-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/hermes-runtime-exposure-audits` | nested | local skill library path only | path-only | Audit Hermes dashboard/gateway exposure read-only. | 2026-08-30 | filesystem-derived | Present as skill `devops/hermes-runtime-exposure-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/home-assistant-configuration-operations` | nested | local skill library path only | path-only | Use when Home Assistant config must be inspected or edited. | 2026-08-10 | filesystem-derived | Present as skill `devops/home-assistant-configuration-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/home-assistant-websocket-triage` | nested | local skill library path only | path-only | Use when HA service calls fail; triage via WS with logs. | 2026-09-28 | filesystem-derived | Present as skill `devops/home-assistant-websocket-triage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/incident-root-cause-analysis` | nested | local skill library path only | path-only | Evidence-first incident debugging and root-cause analysis for infrastructure/service failures. Use when a service restart loop, outage, recurring clock-time failure, or automation/self-heal behavior must be explained before remediation. | 2026-08-10 | filesystem-derived | Present as skill `devops/incident-root-cause-analysis`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -712,22 +446,30 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `devops/remote-command-wrapper-hygiene` | nested | local skill library path only | path-only | Use when SSH wrappers break on quoting. | 2026-08-17 | filesystem-derived | Present as skill `devops/remote-command-wrapper-hygiene`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/remote-stack-deployment-from-gateway-sessions` | nested | local skill library path only | path-only | Use when deploying remote stacks from a live gateway. | 2026-07-29 | filesystem-derived | Present as skill `devops/remote-stack-deployment-from-gateway-sessions`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/reverse-proxy-host-operations` | nested | local skill library path only | path-only | Use when NPM proxy hosts or SSL certs need verified repair. | 2026-08-17 | filesystem-derived | Present as skill `devops/reverse-proxy-host-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/rustdesk-web-client-operations` | nested | local skill library path only | path-only | Use when deploying or debugging RustDesk web clients. | 2026-08-17 | filesystem-derived | Present as skill `devops/rustdesk-web-client-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/safe-commit-in-live-compose-repos` | nested | local skill library path only | path-only | Guarded, secret-safe commits in live /data/compose repos. | 2026-09-24 | filesystem-derived | Present as skill `devops/safe-commit-in-live-compose-repos`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/scheduled-automation-migrations` | nested | local skill library path only | path-only | Migrate scheduled automation from cron or Hermes no_agent jobs into native n8n workflows, verify delivery or local-state side effects, and decommission the old scheduler safely. | 2026-06-26 | filesystem-derived | Present as skill `devops/scheduled-automation-migrations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/script-library-curation` | nested | local skill library path only | path-only | Use when curating script libraries. | 2026-08-20 | filesystem-derived | Present as skill `devops/script-library-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/sdlc-review` | nested | local skill library path only | path-only | Review Kanban handoffs and route verified outcomes. | 2026-08-11 | filesystem-derived | Present as skill `devops/sdlc-review`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/self-hosted-app-runtime-verification` | nested | local skill library path only | path-only | Verify self-hosted app runtime matches source. Guard first. | 2026-10-05 | filesystem-derived | Present as skill `devops/self-hosted-app-runtime-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/ssh-key-bootstrap-and-rotate` | nested | local skill library path only | path-only | Bootstrap hardened key-based SSH onto a host using a one-time password, scope sudo, then rotate the exposed password. Use when given SSH password credentials that will leak into history/journald/transcript and you need to convert to durable key auth and burn the password. | 2026-06-14 | filesystem-derived | Present as skill `devops/ssh-key-bootstrap-and-rotate`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/telegram-workflow-routing-forensics` | nested | local skill library path only | path-only | Use when Telegram routing in n8n is wrong. Prove mapping. | 2026-08-17 | filesystem-derived | Present as skill `devops/telegram-workflow-routing-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/urbackup-operations` | nested | local skill library path only | path-only | Use when UrBackup logs/diagnostics are needed via database. | 2026-08-14 | filesystem-derived | Present as skill `devops/urbackup-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/verification-scope-isolation` | nested | local skill library path only | path-only | Use when proof scope may differ. Verify IDs first. | 2026-08-15 | filesystem-derived | Present as skill `devops/verification-scope-isolation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/verified-data-cleanup-operations` | nested | local skill library path only | path-only | Use when deleting live records. Verify scope and row counts. | 2026-09-11 | filesystem-derived | Present as skill `devops/verified-data-cleanup-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/voice-assistant-market-quotes` | nested | local skill library path only | path-only | Use for stock and crypto prices by voice. API-first. | 2026-09-25 | filesystem-derived | Present as skill `devops/voice-assistant-market-quotes`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/voice-assistant-sports-scores` | nested | local skill library path only | path-only | Use when answering on-demand sports scores by voice. | 2026-09-25 | filesystem-derived | Present as skill `devops/voice-assistant-sports-scores`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `devops/windows-jea-winrm-operations` | nested | local skill library path only | path-only | Use when creating constrained Windows JEA/WinRM access. | 2026-09-15 | filesystem-derived | Present as skill `devops/windows-jea-winrm-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `devops/wordpress-docker-content-operations` | nested | local skill library path only | path-only | Use when editing live WordPress text in Docker. | 2026-08-02 | filesystem-derived | Present as skill `devops/wordpress-docker-content-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `diagnosing-bugs` | top-level | https://github.com/mattpocock/skills | inferred-name-match | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. | 2026-08-13 | filesystem-derived | Upstream repo is strongly suggested by name/path, but no preserved install-write record was found in retained history. No session-backed install date found; using SKILL.md mtime. |
 | `dns-sinkhole-diagnosis` | top-level | local skill library path only | path-only | Diagnose DNS sinkholes (0.0.0.0) blocking HTTPS calls. | 2026-09-26 | filesystem-derived | Present as skill `dns-sinkhole-diagnosis`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `docker-compose-patterns` | top-level | local skill library path only | path-only | Use this skill when creating, modifying, or debugging Docker Compose configurations, even if the user just says they need to wire services together, add a database to their stack, or set up a local development environment with multiple containers. Covers service definitions, health checks, dependency ordering, volumes, networks, environment variables, and development overrides. | 2026-09-29 | filesystem-derived | Present as skill `docker-compose-patterns`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `docker-destructive-guardrails` | top-level | local skill library path only | path-only | Use this skill before running, or recommending, any Docker command that deletes, wipes, resets, or otherwise irreversibly changes state — even if the user just says to "clean up", "clear the cache", "start fresh", "wipe everything", "nuke it", "reset", "force remove", or "tear down" Docker resources. Covers generic Docker CLI destructive operations not owned by a more specific skill — `docker rm`, `docker rm -f`, `docker container prune`, `docker kill`, `docker system prune`, `docker rmi`/`docker image rm`, `docker image prune -a`, `docker network rm`, `docker network prune`, `docker builder prune`, `docker buildx rm`, `docker context rm`, and standalone (non-Compose) `docker volume rm`/`docker volume prune`. Also indexes destructive commands owned by other Docker skills (Compose, sandbox, Desktop). Core rule — state exactly what will be lost and get explicit confirmation first, except narrow, low-friction Tier 1 container cleanup. | 2026-09-29 | filesystem-derived | Present as skill `docker-destructive-guardrails`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `docker-override-config-patterns` | top-level | local skill library path only | path-only | Bind-mount minimal app config overrides in Docker safely. | 2026-09-26 | filesystem-derived | Present as skill `docker-override-config-patterns`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `documentation-and-adrs` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `documentation-and-adrs/github-repo-inventory-and-readme-refresh` | nested | local skill library path only | path-only | Use when live GitHub repo trees need verified pulls. | 2026-08-20 | filesystem-derived | Present as skill `documentation-and-adrs/github-repo-inventory-and-readme-refresh`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `doubt-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `email/email-inbox-triage` | nested | local skill library path only | path-only | Triage an inbox: prioritize threads, draft replies safely. | 2026-08-10 | filesystem-derived | Present as skill `email/email-inbox-triage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `entra-conditional-access` | top-level | local skill library path only | path-only | Troubleshoot and design Microsoft Entra Conditional Access - reading sign-in logs, working out which policy applied and why, report-only and What If evaluation, MFA and authentication strengths, device compliance, locations, session controls, exclusions and break-glass accounts. Use when a sign-in is blocked or unexpectedly challenged, or when creating/changing CA policies. | 2026-09-29 | filesystem-derived | Present as skill `entra-conditional-access`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `eradicating-malware-from-infected-systems` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Systematically map and remove malware, backdoors, and attacker persistence | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `evaluating-threat-intelligence-platforms` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Evaluates and selects Threat Intelligence Platform (TIP) products based | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
@@ -738,18 +480,24 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `fleet-hunting-with-velociraptor` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Deploy a Velociraptor server and agents, then author VQL (Velociraptor Query Language) artifacts and run them as fleet-wide hunts, on-demand forensic collections, or standalone offline collectors. Use when hunting a TTP across hundreds or thousands of endpoints, collecting forensic artifacts during incident response without re-imaging, or generating collectors for unmanaged/air-gapped hosts. | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `frontend-design` | top-level | https://github.com/anthropics/skills | confirmed-session | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. | 2026-08-13 | session-backed | Confirmed from retained 2026-08-13 frontend-design review/write session. Confirmed from retained 2026-08-13 install session. |
 | `frontend-ui-engineering` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `frontend/presence-and-identity-ux` | nested | local skill library path only | path-only | Use when presence panels or identity colors scale. | 2026-08-15 | filesystem-derived | Present as skill `frontend/presence-and-identity-ux`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `gaming/gaming-automation-and-servers` | nested | local skill library path only | path-only | Use when operating gaming-related tooling: hosting modded Minecraft servers or playing/automating Pokemon through emulators and RAM-state probes. | 2026-06-10 | filesystem-derived | Present as skill `gaming/gaming-automation-and-servers`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `generating-forensic-timelines-with-hayabusa` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Run Hayabusa against collected Windows EVTX files to apply Sigma detection rules and produce a prioritized, chronological CSV/JSON timeline with severity levels, MITRE ATT&CK mappings, and per-host/per-Event-ID metrics. Use during DFIR triage to turn raw event logs into a fast, SIEM-free incident timeline, or to export results into Timesketch or Timeline Explorer for collaborative analysis. | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `generating-threat-intelligence-reports` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Generates structured cyber threat intelligence reports at strategic, | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `git-workflow-and-versioning` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `github/external-script-curation` | nested | local skill library path only | path-only | Use when sourcing external scripts for reviewable staging. | 2026-08-20 | filesystem-derived | Present as skill `github/external-script-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-issue-to-pr` | nested | local skill library path only | path-only | Carry a GitHub issue to a verified PR with honest CI state. | 2026-08-10 | filesystem-derived | Present as skill `github/github-issue-to-pr`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-live-publish-verification` | nested | local skill library path only | path-only | Use when GitHub docs/README pushes must be proven live. | 2026-08-14 | filesystem-derived | Present as skill `github/github-live-publish-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-profile-readme-operations` | nested | local skill library path only | path-only | Update and verify GitHub profile README repositories (`<owner>/<owner>`), especially project card grids, renderer-safe markup, and safe push/verification workflows. | 2026-08-10 | filesystem-derived | Present as skill `github/github-profile-readme-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-readme-render-verification` | nested | local skill library path only | path-only | Use when a pushed GitHub README must be proven live. | 2026-08-13 | filesystem-derived | Present as skill `github/github-readme-render-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/github-workflows` | nested | local skill library path only | path-only | Use when working with GitHub repositories end-to-end: auth, repo management, issues, PRs, code review, CI, releases, and codebase inspection. | 2026-07-20 | filesystem-derived | Present as skill `github/github-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `github/powershell-script-repo-curation` | nested | local skill library path only | path-only | Use when curating PowerShell scripts. Verify and publish. | 2026-08-20 | filesystem-derived | Present as skill `github/powershell-script-repo-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `github/public-repo-export-sanitization` | nested | local skill library path only | path-only | Use when exporting production-derived or private infrastructure/application trees into a public GitHub repository with sanitization, leak scanning, staged diff review, and confirmation-gated push. | 2026-08-14 | filesystem-derived | Present as skill `github/public-repo-export-sanitization`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `github/repository-script-catalog-maintenance` | nested | local skill library path only | path-only | Use when curating script repos. Verify, tag, and publish. | 2026-08-20 | filesystem-derived | Present as skill `github/repository-script-catalog-maintenance`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `github/single-repo-operations` | nested | local skill library path only | path-only | Use when one repo only is in scope. Confirm and stay on it. | 2026-08-09 | filesystem-derived | Present as skill `github/single-repo-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `hermes-desktop-plugins` | top-level | local skill library path only | path-only | Write desktop app plugins that add UI panes and commands. | 2026-07-20 | filesystem-derived | Present as skill `hermes-desktop-plugins`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `home-assistant-best-practices` | top-level | local skill library path only | path-only | > | 2026-09-29 | filesystem-derived | Present as skill `home-assistant-best-practices`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `humanizer` | nested | local skill library path only | path-only | Humanize text: strip AI-isms and add real voice. | 2026-06-02 | filesystem-derived | Present as skill `humanizer`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `hunting-advanced-persistent-threats` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Proactively hunts for Advanced Persistent Threat (APT) activity within | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `hunting-credential-stuffing-attacks` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Detects credential stuffing attacks by analyzing authentication logs | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `hunting-evtx-with-chainsaw` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Run Chainsaw against collected Windows EVTX files to hunt with the SigmaHQ rule corpus, built-in detection rules, and high-speed keyword/regex search, plus analyze shimcache, SRUM, and event-log gaps, outputting colorized tables, CSV, or JSON. Use during first-response triage for offline, SIEM-free detection over Windows event logs, or to quickly confirm a hunt hypothesis and produce reporting output. | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
@@ -905,24 +653,38 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `prioritizing-vulnerabilities-with-cvss-scoring` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | The Common Vulnerability Scoring System (CVSS) is the industry standard | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `processing-stix-taxii-feeds` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Processes STIX 2.1 threat intelligence bundles delivered via TAXII 2.1 | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `productivity/apple-ecosystem-automation` | nested | local skill library path only | path-only | Use when automating Apple ecosystem tasks on macOS: Notes, Reminders, iMessage/SMS, Find My devices, and GUI computer-use fallbacks. | 2026-06-10 | filesystem-derived | Present as skill `productivity/apple-ecosystem-automation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/box` | nested | local skill library path only | path-only | Box manages cloud files, sharing, search, and metadata. | 2026-08-15 | filesystem-derived | Present as skill `productivity/box`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/document-to-action-items` | nested | local skill library path only | path-only | Extract cited obligations, deadlines, tasks from documents. | 2026-09-03 | filesystem-derived | Present as skill `productivity/document-to-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/docx` | nested | local skill library path only | path-only | Create, read, edit, template, and review Word .docx files. | 2026-08-10 | filesystem-derived | Present as skill `productivity/docx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/embedding-runtime-troubleshooting` | nested | local skill library path only | path-only | Use when embedding imports fail from runtime/timeout issues. | 2026-08-14 | filesystem-derived | Present as skill `productivity/embedding-runtime-troubleshooting`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/external-app-operations` | nested | local skill library path only | path-only | Operate external user-facing apps and CLIs from Hermes: email via Himalaya, Obsidian vault files, X/Twitter via xurl, Yuanbao groups/DMs, OpenHue lights, and stateful Jupyter kernels. | 2026-06-22 | filesystem-derived | Present as skill `productivity/external-app-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/flight-hotel-search` | nested | local skill library path only | path-only | Search-only flights/hotels; summarize options. No booking. | 2026-09-25 | filesystem-derived | Present as skill `productivity/flight-hotel-search`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/gbrain-operations` | nested | local skill library path only | path-only | Use when operating GBrain. Setup, import, retry, verify. | 2026-08-14 | filesystem-derived | Present as skill `productivity/gbrain-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/github-pages-blog-operations` | nested | local skill library path only | path-only | Use when operating MRDTech's GitHub Pages Jekyll blog. | 2026-09-28 | filesystem-derived | Present as skill `productivity/github-pages-blog-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/knowledge-base-curation-workflows` | nested | local skill library path only | path-only | Curate operational knowledge bases from session history, WikiDocs, Obsidian vaults, and other Markdown-backed documentation. | 2026-07-26 | filesystem-derived | Present as skill `productivity/knowledge-base-curation-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/markdown-knowledge-base-maintenance` | nested | local skill library path only | path-only | Use when curating Markdown knowledge bases. | 2026-08-19 | filesystem-derived | Present as skill `productivity/markdown-knowledge-base-maintenance`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/meeting-action-items` | nested | local skill library path only | path-only | Turn meeting notes into cited decisions, owners, tickets. | 2026-08-10 | filesystem-derived | Present as skill `productivity/meeting-action-items`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/n8n-execution-forensics` | nested | local skill library path only | path-only | Use when n8n webhooks stall. Inspect executions first. | 2026-08-17 | filesystem-derived | Present as skill `productivity/n8n-execution-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/n8n-workflow-operations` | nested | local skill library path only | path-only | Build, debug, patch, and verify n8n workflows on MRDTech-style self-hosted instances, especially SSH/file-writing workflows and execution forensics. | 2026-08-12 | filesystem-derived | Present as skill `productivity/n8n-workflow-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/news-headlines-summary` | nested | local skill library path only | path-only | Summarize 3–5 current headlines from trusted sources. | 2026-09-25 | filesystem-derived | Present as skill `productivity/news-headlines-summary`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/obsidian-session-note-capture` | nested | local skill library path only | path-only | Use at the end of every substantive working session to write a durable summary note into Michael's Obsidian Brain vault. Skip trivial, empty, greeting-only, password-only, or low-value sessions. This is a standing Gilfoyle workflow for preserving useful session outcomes. | 2026-06-23 | filesystem-derived | Present as skill `productivity/obsidian-session-note-capture`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/pdf` | nested | local skill library path only | path-only | PDF files: create, read, merge, fill, OCR, edit text. | 2026-09-03 | filesystem-derived | Present as skill `productivity/pdf`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/petdex` | nested | local skill library path only | path-only | Install and select animated petdex mascots for Hermes. | 2026-06-26 | filesystem-derived | Present as skill `productivity/petdex`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/product-price-monitor` | nested | local skill library path only | path-only | Watch product, flight, or listing prices; alert on target. | 2026-08-10 | filesystem-derived | Present as skill `productivity/product-price-monitor`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/productivity-api-automation` | nested | local skill library path only | path-only | Use when automating productivity SaaS APIs and documents: Google Workspace, Airtable, Linear, Notion, maps/geocoding, PDFs, PowerPoint, OCR, and meeting pipelines. | 2026-06-16 | filesystem-derived | Present as skill `productivity/productivity-api-automation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/session-librarian` | nested | local skill library path only | path-only | Organize sessions by prompt: find, rename, archive, prune. | 2026-08-12 | filesystem-derived | Present as skill `productivity/session-librarian`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/session-output-forensics` | nested | local skill library path only | path-only | Use when users want raw output or session tracing. | 2026-08-18 | filesystem-derived | Present as skill `productivity/session-output-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/session-output-recovery` | nested | local skill library path only | path-only | Use when recovering raw output from past sessions. | 2026-08-19 | filesystem-derived | Present as skill `productivity/session-output-recovery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/session-tracing-and-output-forensics` | nested | local skill library path only | path-only | Use when tracing past sessions. Recover raw output exactly. | 2026-09-26 | filesystem-derived | Present as skill `productivity/session-tracing-and-output-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/sports-scores-lookup` | nested | local skill library path only | path-only | On-demand sports scores for NFL/MLB/NBA/NHL/UFC. | 2026-09-25 | filesystem-derived | Present as skill `productivity/sports-scores-lookup`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `productivity/stepwise-verification-audits` | nested | local skill library path only | path-only | Use when live audits must run one step at a time. | 2026-08-09 | filesystem-derived | Present as skill `productivity/stepwise-verification-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/webhook-execution-retention-forensics` | nested | local skill library path only | path-only | Use when webhook alert payloads vanish from history. | 2026-08-31 | filesystem-derived | Present as skill `productivity/webhook-execution-retention-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/weekly-review-planning` | nested | local skill library path only | path-only | Weekly reset: commitments, stalled work, next-week plan. | 2026-08-10 | filesystem-derived | Present as skill `productivity/weekly-review-planning`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `productivity/xlsx` | nested | local skill library path only | path-only | Create, read, edit Excel .xlsx workbooks and CSVs. | 2026-08-10 | filesystem-derived | Present as skill `productivity/xlsx`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `profiling-threat-actor-groups` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | 'Develops comprehensive threat actor profiles for APT groups, criminal | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `read-only-infrastructure-audits` | top-level | local skill library path only | path-only | Use for zero-touch infra audits with raw evidence. | 2026-10-07 | filesystem-derived | Present as skill `read-only-infrastructure-audits`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `recovering-deleted-files-with-photorec` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Recovers deleted files from disk images and storage media using PhotoRec's | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
+| `research/competitor-news-monitor` | nested | local skill library path only | path-only | Watch named companies for material news; cited digests. | 2026-09-13 | filesystem-derived | Present as skill `research/competitor-news-monitor`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `research/grounded-citations` | nested | local skill library path only | path-only | Ground answers and documents in cited, verifiable sources. | 2026-08-08 | filesystem-derived | Present as skill `research/grounded-citations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `research/research-discovery-and-writing` | nested | local skill library path only | path-only | Use when discovering, monitoring, organizing, or writing research: arXiv search, blog/RSS monitoring, LLM knowledge wikis, Polymarket research, and ML paper drafting. | 2026-06-10 | filesystem-derived | Present as skill `research/research-discovery-and-writing`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `research/web-data-extraction-on-hermes` | nested | local skill library path only | path-only | Live web extraction on Hermes with browser+extract. | 2026-09-25 | filesystem-derived | Present as skill `research/web-data-extraction-on-hermes`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
@@ -931,30 +693,40 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `security-and-hardening` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `security/oss-forensics` | nested | local skill library path only | path-only | GitHub supply-chain forensics: recovery, IOCs, reporting. | 2026-08-30 | filesystem-derived | Present as skill `security/oss-forensics`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `shipping-and-launch` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/aspnet-core-backend-scaffold-verification` | nested | local skill library path only | path-only | Use when fresh ASP.NET Core backends must compile cleanly. | 2026-08-14 | filesystem-derived | Present as skill `software-development/aspnet-core-backend-scaffold-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/browser-automation-setup-and-triage` | nested | local skill library path only | path-only | Make Hermes browser tooling launch reliably; triage fails. | 2026-09-25 | filesystem-derived | Present as skill `software-development/browser-automation-setup-and-triage`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/browser-automation-troubleshooting` | nested | local skill library path only | path-only | Start Hermes browser on Linux; safe no-sandbox rules. | 2026-09-25 | filesystem-derived | Present as skill `software-development/browser-automation-troubleshooting`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/browser-proofed-ui-verification` | nested | local skill library path only | path-only | Use when live UI proof is needed. Screenshot and verify. | 2026-08-15 | filesystem-derived | Present as skill `software-development/browser-proofed-ui-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/browser-state-verification` | nested | local skill library path only | path-only | Use when live browser state changes need real-account proof. | 2026-08-15 | filesystem-derived | Present as skill `software-development/browser-state-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/code-wiki` | nested | local skill library path only | path-only | Generate wiki docs + Mermaid diagrams for any codebase. | 2026-08-30 | filesystem-derived | Present as skill `software-development/code-wiki`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/evidence-first-ui-delivery` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `software-development/evidence-first-ui-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/frontend-live-ui-verification` | nested | local skill library path only | path-only | Use when live frontend UI changes need browser proof. | 2026-08-15 | filesystem-derived | Present as skill `software-development/frontend-live-ui-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/github` | nested | local skill library path only | path-only | GitHub via gh CLI: PRs, issues, reviews, repos, auth. | 2026-09-03 | filesystem-derived | Present as skill `software-development/github`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/github-repository-cleanup` | nested | local skill library path only | path-only | Use when deleting archived GitHub repos. Prove redundancy. | 2026-09-20 | filesystem-derived | Present as skill `software-development/github-repository-cleanup`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/grill-me` | nested | local skill library path only | path-only | Adversarial plan interview before implementation. | 2026-08-30 | filesystem-derived | Present as skill `software-development/grill-me`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/inspecting-hermes-desktop-dom` | nested | local skill library path only | path-only | Read the live Hermes desktop DOM/CSS over CDP. | 2026-08-08 | filesystem-derived | Present as skill `software-development/inspecting-hermes-desktop-dom`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/iris-voice-operations` | nested | local skill library path only | path-only | Use when maintaining IRIS voice. Keep it fast and verified. | 2026-10-06 | filesystem-derived | Present as skill `software-development/iris-voice-operations`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/lightweight-local-agent-sidecars` | nested | local skill library path only | path-only | Use when building loopback agent sidecars. | 2026-09-18 | filesystem-derived | Present as skill `software-development/lightweight-local-agent-sidecars`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/live-ui-verification-workflows` | nested | local skill library path only | path-only | Use when UI changes need live proof and screenshots. | 2026-08-15 | filesystem-derived | Present as skill `software-development/live-ui-verification-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/powershell-script-curation` | nested | local skill library path only | path-only | Use when curating third-party PowerShell scripts. | 2026-08-20 | filesystem-derived | Present as skill `software-development/powershell-script-curation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/pwa-installability-workflows` | nested | local skill library path only | path-only | Fix and verify installability for PWA/static web apps, especially Vite or Dockerized self-hosted frontends. | 2026-07-21 | filesystem-derived | Present as skill `software-development/pwa-installability-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/quality-review-workflows` | nested | local skill library path only | path-only | Review and cleanup workflows: exploratory web QA/dogfooding, recent-code simplification via parallel reviewers, and prose humanization/de-AI editing. | 2026-06-22 | filesystem-derived | Present as skill `software-development/quality-review-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/review-gated-git-delivery` | nested | local skill library path only | path-only | Use when a user wants git changes reviewed before pushing. | 2026-09-12 | filesystem-derived | Present as skill `software-development/review-gated-git-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/sanitized-public-demo-artifacts` | nested | local skill library path only | path-only | Use when public docs need sanitized demo artifacts. | 2026-08-25 | filesystem-derived | Present as skill `software-development/sanitized-public-demo-artifacts`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/software-delivery-workflows` | nested | local skill library path only | path-only | Use when planning, implementing, debugging, testing, reviewing, or coordinating software changes from idea to verified delivery. | 2026-07-19 | filesystem-derived | Present as skill `software-development/software-delivery-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/static-site-github-pages-delivery` | nested | local skill library path only | path-only | Use when GitHub Pages static sites need live review. | 2026-09-25 | filesystem-derived | Present as skill `software-development/static-site-github-pages-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/static-site-hero-media-updates` | nested | local skill library path only | path-only | Use when updating hero images on static sites. | 2026-08-07 | filesystem-derived | Present as skill `software-development/static-site-hero-media-updates`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/static-site-media-integration` | nested | local skill library path only | path-only | Use when adding images to static sites. Optimize and verify. | 2026-08-07 | filesystem-derived | Present as skill `software-development/static-site-media-integration`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/static-site-release-verification` | nested | local skill library path only | path-only | Use when static-site pushes must be proven live in prod. | 2026-08-10 | filesystem-derived | Present as skill `software-development/static-site-release-verification`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/static-web-layout-debugging` | nested | local skill library path only | path-only | Use when static HTML/CSS spacing drifts. | 2026-08-10 | filesystem-derived | Present as skill `software-development/static-web-layout-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/systematic-debugging` | nested | local skill library path only | path-only | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | 2026-09-29 | filesystem-derived | Present as skill `software-development/systematic-debugging`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/test-driven-development` | nested | local skill library path only | path-only | Use when implementing any feature or bugfix, before writing implementation code | 2026-09-29 | filesystem-derived | Present as skill `software-development/test-driven-development`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/ui-evidence-delivery` | nested | local skill library path only | path-only | Use when sending UI screenshots or browser proof files. | 2026-08-22 | filesystem-derived | Present as skill `software-development/ui-evidence-delivery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/verifying-dotnet-project-scaffolds` | nested | local skill library path only | path-only | Use when fresh .NET/ASP.NET scaffolds must actually compile. | 2026-08-14 | filesystem-derived | Present as skill `software-development/verifying-dotnet-project-scaffolds`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/voice-endpoint-compound-handling` | nested | local skill library path only | path-only | Compound prompts and alias gating for voice endpoints. | 2026-09-29 | filesystem-derived | Present as skill `software-development/voice-endpoint-compound-handling`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/voice-endpoint-hardening` | nested | local skill library path only | path-only | Harden IRIS/Hermes voice endpoints; verify with tests. | 2026-09-27 | filesystem-derived | Present as skill `software-development/voice-endpoint-hardening`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/voice-endpoint-service-and-delegation` | nested | local skill library path only | path-only | Voice endpoint ops: one listener, delegation, native tools. | 2026-09-28 | filesystem-derived | Present as skill `software-development/voice-endpoint-service-and-delegation`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `software-development/vue-inline-picker-workflows` | nested | local skill library path only | path-only | Use when adding inline pickers to Vue composer forms. | 2026-08-16 | filesystem-derived | Present as skill `software-development/vue-inline-picker-workflows`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `software-development/web-extraction-with-agent-browser` | nested | local skill library path only | path-only | Web extraction with agent-browser. | 2026-09-25 | filesystem-derived | Present as skill `software-development/web-extraction-with-agent-browser`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
 | `source-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `spec-driven-development` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
@@ -968,3 +740,4 @@ Living inventory of installed Hermes skills and plugin-provided skills on the MR
 | `using-agent-skills` | top-level | https://github.com/addyosmani/agent-skills | inferred-family | Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked. | 2026-08-13 | filesystem-derived | Matches the addyosmani skill family, but retained summary explicitly says install write evidence was not preserved. No session-backed install date found; using SKILL.md mtime. |
 | `validating-backup-integrity-for-recovery` | top-level | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | confirmed-session+frontmatter | Validates backup integrity through cryptographic hash verification, | 2026-08-13 | session-backed | Skill has repo-style `subdomain:` frontmatter and matches the retained 2026-08-13 Anthropic Cybersecurity Skills bulk install. Confirmed from retained 2026-08-13 bulk install sessions. |
 | `verification-before-completion` | top-level | local skill library path only | path-only | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always | 2026-09-29 | filesystem-derived | Present as skill `verification-before-completion`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
+| `web/blocked-page-recovery` | nested | local skill library path only | path-only | Use when a fetch fails: 403/429, paywall, WAF, bot wall. | 2026-09-03 | filesystem-derived | Present as skill `web/blocked-page-recovery`; upstream source repo not confirmed from retained install history. No session-backed install date found; using SKILL.md mtime. |
