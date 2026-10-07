@@ -25,7 +25,7 @@ Known from local session history and on-host state:
 - Hermes host: **Ubuntu VM108** at `[HERMES_HOST]`
 - Active Hermes profile: `default`
 - Skill library lives at `~/.hermes/skills/`
-- Plugins currently present include **Superpowers** and local audit logging
+- Plugins currently present include local audit logging; no installed Superpowers plugin directory was present during the 2026-10-07 catalog reconciliation
 - OHM standalone skills were manually installed into the local skill library; no OMH plugin path is currently documented as installed
 - `defuddle` CLI is installed separately and the local `defuddle` skill is only the wrapper/invocation guidance
 
@@ -90,9 +90,9 @@ The numbered docs are not placeholders. They already cover the major items that 
 The skills catalog is a first-class part of this repo, not a hidden appendix.
 
 - Entry point: [docs/skills/README.md](docs/skills/README.md)
-- Current total rows: **450**
-- Rows with session-backed install dates: **325**
-- Rows still carrying any evidence gap: **125**
+- Current total rows: **485**
+- Rows with session-backed install dates: **263**
+- Rows still carrying any evidence gap: **222**
 
 ### Evidence legend
 
