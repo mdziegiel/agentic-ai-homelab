@@ -1,6 +1,6 @@
-# MRDTech Hermes Stack
+# Agentic AI Homelab
 
-Public-safe documentation for the MRDTech Hermes / Gilfoyle control stack.
+Public-safe documentation for a self-hosted agentic AI stack — the MRDTech Hermes Agent / Gilfoyle control node.
 
 This repository documents the current Hermes control-node install, surrounding knowledge systems, and related integration layers using a proof-first standard: live config, service state, code on disk, and retained session history where needed. Historical details that are not fully re-proven are called out inside the numbered docs rather than blurred into fake certainty.
 
