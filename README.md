@@ -2,7 +2,7 @@
 
 Public-safe documentation for a self-hosted agentic AI stack — the MRDTech Hermes Agent / Gilfoyle control node.
 
-This repository documents the current Hermes control-node install, surrounding knowledge systems, and related integration layers using a proof-first standard: live config, service state, code on disk, and retained session history where needed. Historical details that are not fully re-proven are called out inside the numbered docs rather than blurred into fake certainty.
+Full architecture and build documentation for Gilfoyle — a self-hosted Hermes Agent instance with MCP gateway, RAG pipeline, Obsidian vault integration, dual-model delegation (Claude Code + Codex), and a maintained skill catalog.
 
 ## Scope
 
